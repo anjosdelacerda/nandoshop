@@ -1,0 +1,200 @@
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    background-color: #F1EFEF;
+}
+
+.header-shop{
+    display: flex;
+    position: fixed;
+
+    background-color: #191717;
+    color: #F1EFEF;
+
+    width: 100vw;
+    height: 7rem;
+
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+
+.name-shop{
+    height: 80%;
+    width: 30%;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.7rem;
+}
+
+h1{
+    font-size: 4rem;
+    margin-left: 0.8rem;
+
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+i{
+    margin: 0 0 0 0.8rem
+}
+
+
+.options-shop{
+    display: flex;
+
+    height: 80%;
+    width: 62%;
+
+    align-items: center;
+}
+
+.options-shop ul{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 99%;
+    width: 99%;
+}
+
+.li-option{
+
+    font-size: 2.4rem;
+    margin: 0 0.8rem 0 0.8rem;
+}
+
+#body-center{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 62rem;
+
+    justify-content: center;
+
+    padding: 8rem 0 1rem 0;
+}
+
+#div-big-pic{
+     width: 50%;
+     height: 100%;
+
+     background-image: url("https://media.wired.com/photos/64cd2f29211451f12eaefded/4:3/w_1600,h_1200,c_limit/Grimes_03_0679_Final.jpg");
+     background-position: 60% 3%;
+}
+
+#div-big-form{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: #191717;
+}
+
+#form-login{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 40rem;
+    height: 45rem;
+
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid #424242; 
+}
+
+#form-login h2{
+
+    font-size: 2.2rem;
+}
+
+#div-labels{
+    display: flex;
+    flex-direction: column;
+
+    width: 33rem;
+    height: 25rem;
+
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.group-label{
+
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    height: 8rem;
+
+    justify-content: space-between;
+
+}
+
+.group-label label{
+    font-size: 1.5rem;
+
+}
+
+
+.group-label input{
+    
+    width: 100%;
+    height: 5rem;
+    
+    border-radius: 2px;
+
+    padding: 1rem;
+
+}
+
+.group-label label::placeholder{
+        margin: 0 0 0 2rem;
+    
+}
+
+footer{
+    height: 1.1rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-end;
+
+    font-size: 1rem;
+    font-weight: lighter;
+
+    padding: 0 0.9rem 0.9rem 0;
+    
+
+    color:#191717;
+}
