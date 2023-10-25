@@ -177,11 +177,14 @@ height: 68rem;
 
     width: 17.5rem;
     height: 17.5rem;
+
+    gap: 1rem;
 }
 
 .card figcaption{
 
     width: 17.5rem;
+    font-size: 1.2rem;
 }
 
 .footer-redes{
