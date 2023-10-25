@@ -93,7 +93,7 @@ i{
 }
 
 #div-big-pic{
-     width: 50%;
+     width: 64.7rem;
      height: 100%;
 
      background-image: url("https://media.wired.com/photos/64cd2f29211451f12eaefded/4:3/w_1600,h_1200,c_limit/Grimes_03_0679_Final.jpg");
@@ -101,8 +101,10 @@ i{
 }
 
 #div-big-form{
-    width: 50%;
+    width: 64.7rem;
     height: 100%;
+
+    margin: 0;
 
     display: flex;
     flex-direction: column;
@@ -188,13 +190,74 @@ footer{
     flex-direction: column;
 
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 
     font-size: 1rem;
-    font-weight: lighter;
-
-    padding: 0 0.9rem 0.9rem 0;
-    
+    font-weight: lighter;    
 
     color:#191717;
+}
+
+.group-buttons{
+
+    display: flex;
+    flex-direction: row;
+
+    height:6.1rem;
+    width: 38rem;
+
+    justify-content: space-evenly;
+
+    margin-top: 4rem;
+}
+
+.form-buttons{
+    display: flex;
+    flex-direction: column;
+
+    width: 11rem;
+    height: 4rem;
+
+    color:#191717;
+    background-color:  #585858;
+
+    border: 1px solid #F1EFEF;
+    border-radius: 1.7rem;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.3rem;
+    font-weight:bold;
+}
+
+@media (max-width: 120rem) {
+    #body-center {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* .header-shop{
+
+        height: 5rem;
+    
+    } */
+
+    /* h1{
+        font-size: 2rem;
+        margin-left: 0.6rem;
+    
+    }
+
+    .li-option{
+
+        font-size: 1.4rem;
+        margin: 0 0.5rem 0 0.5rem;
+    } */
+
+    /* #div-big-form{
+        margin-top: 1rem;
+    } */
+
+
 }
