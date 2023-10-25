@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css"> 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
@@ -44,30 +44,44 @@
         </div>
     </header>
 
+    <div id="div-big-pic"></div>
+
     <div id="body-center">
-        <div id="div-big-pic"></div>
-        <div id="div-big-form">
-            <form id="form-login">
-                <h2>Logue para comprar seus produtos</h2>
-               <div id="div-labels">
-                <div class="group-label">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" placeholder="usuario@gmail.com" class="fields" />
-                </div>
-                <div class="group-label">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="password" placeholder="****" class="fields" />
-                </div>
-               </div>
-                <div class="group-buttons">
-                    <button class="form-buttons" type="submit">Login</button>
-                    <button class="form-buttons">Cadastre-se</button>
-                </div>
-            </form>
+
+     <form id="contato-form">
+        <div class="group-label">
+            <label for="email">Seu melhor email</label>
+            <input type="email">
         </div>
-        <footer>
-        </footer>
+        <div class="group-label">
+            <label for="assunto">Assunto</label>
+            <input type="text">
+        </div>
+        <div class="group-label">
+            <label for="mensagem">Mensagem</label>
+            <input type="text" id="big-input">
+        </div>
+        <button class="form-buttons">Enviar</button>
+     </form>
+
     </div>
+
+
+    <footer class="footer-redes">
+        <div class="options-footer">
+            <ul>
+                <i class="material-icons">photo_camera</i>
+                <li class="li-option-footer">Instagram</li>
+                <i class="material-icons">work</i>
+                <a href="https://www.linkedin.com/in/lacerda-fernando/">
+
+                    <li class="li-option-footer">Linkedin</li>
+                </a>
+                <i class="material-icons">flutter_dash</i>
+                <li class="li-option-footer">Twitter</li>
+            </ul> 
+        </div>
+    </footer>
 
     
 </body>
