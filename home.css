@@ -14,7 +14,7 @@ body{
     background-color: #191717;
     color: #F1EFEF;
 
-    width: 98.5vw;
+    width: 100vw;
     height: 7rem;
 
     align-items: center;
@@ -159,6 +159,8 @@ height: 68rem;
     flex-wrap: wrap;
 
     /* padding: 1rem; */
+
+    margin-bottom: 6rem;
 }
 
 .card{
@@ -180,4 +182,44 @@ height: 68rem;
 .card figcaption{
 
     width: 17.5rem;
+}
+
+.footer-redes{
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: #191717;
+    color: #F1EFEF;
+
+    width: 100vw;
+    height: 7rem;
+
+    align-items: center;
+
+}
+
+.options-footer{
+    display: flex;
+
+    height: 80%;
+    width: 62%;
+
+    align-items: end;
+}
+
+.options-footer ul{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: flex-end;
+
+    height: 97%;
+    width: 97%;
+}
+
+.li-option-footer{
+
+    font-size: 5vh;
+    margin: 0 0.8rem 0 0.8rem;
 }
